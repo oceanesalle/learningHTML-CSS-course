@@ -1,17 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins',sans-serif;
 }
-::selection{
-  color: #000;
-  background: #fff;
-}
+
 nav{
   position: fixed;
-  background: #1b1b1b;
+  background: pink;
   width: 100%;
   padding: 10px 0;
   z-index: 12;
@@ -37,9 +33,7 @@ nav .menu{
   list-style: none;
   margin-left: 7px;
 }
-.menu ul li:first-child{
-  margin-left: 0px;
-}
+
 .menu ul li a{
   text-decoration: none;
   color: #fff;
@@ -54,7 +48,7 @@ nav .menu{
   color: black;
 }
 .img{
-  background: url('img3.jpg')no-repeat;
+  background: url('/assets/picture.jpg')no-repeat;
   width: 100%;
   height: 100vh;
   background-size: cover;
@@ -103,16 +97,4 @@ nav .menu{
   cursor: pointer;
   outline: none;
   transition: all 0.3s ease;
-}
-.center .btns button:first-child{
-  color: #fff;
-  background: none;
-}
-.btns button:first-child:hover{
-  background: white;
-  color: black;
-}
-.center .btns button:last-child{
-  background: white;
-  color: black;
 }
